@@ -5,6 +5,64 @@ body {
   background-color: var(--tono2);
 }
 
+.logo {
+  letter-spacing: 4px;
+  font-size: 20px;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+  width: 100%;
+  background-color: var(--tono1);
+}
+
+.btn_navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 64px;
+  left: 100px;
+  border: none;
+  border-style: none;
+  border-width: 0px;
+  cursor: pointer;
+
+}
+
+.container_btn {
+  position: relative;
+  width: 20px;
+  height: 14px;
+  line-height: inherit;
+  overflow: hidden;
+}
+
+.top {
+  position: absolute;
+  width: 20px;
+  height: 2px;
+  background-color: var(--tono3);
+  transition: top .25s, background-color .5s transform .25s;
+  top: 0;
+  left: 0;
+  transform: translate(0);
+
+}
+
+.middle {
+  position: absolute;
+  top: 7px;
+  left: 0;
+  width: 16px;
+  height: 2px;
+  background-color: var(--tono3);
+  transition: top .25s, background-color .5s transform .25s;
+}
+
 .hero {
   background-color: var(--tono1);
   height: 100vh;
@@ -39,7 +97,8 @@ body {
   color: var(--tono3);
   font-weight: 700;
 }
-.hero_producto{
+
+.hero_producto {
   width: 13%;
 }
 
@@ -63,9 +122,11 @@ body {
   height: 100%;
   width: 100%;
 }
-.quienesSomos_contenido{
+
+.quienesSomos_contenido {
   padding: 20px;
 }
+
 .quienesSomos_title {
   font-size: 60px;
   color: var(--tono3);
@@ -80,11 +141,13 @@ body {
   text-align: center;
   font-weight: bold;
 }
+
 .quienesSomos_text {
-  width:  435px;
+  width: 435px;
   font-size: 20px;
   color: var(--text);
 }
+
 .quienesSomos_img {
   width: 20rem;
 }
@@ -103,31 +166,38 @@ body {
   .hero_producto {
     width: 35%;
   }
-  .quienesSomos_text{
+
+  .quienesSomos_text {
     width: 100%;
   }
 
   .quienesSomos_container {
     flex-direction: column;
   }
-  .quienesSomos_subtitle{
+
+  .quienesSomos_subtitle {
     font-size: 40px;
   }
-  .quienesSomos{
+
+  .quienesSomos {
     height: 100vh;
   }
 }
+
 @media screen and (max-width: 1286px) {
-  .hero_producto{
+  .hero_producto {
     width: 20%;
   }
-  .quienesSomos_text{
+
+  .quienesSomos_text {
     width: 100%;
   }
-  .quienesSomos_title{
+
+  .quienesSomos_title {
     padding: 40px;
   }
-  .hero_title{
+
+  .hero_title {
     font-size: 50px;
     width: 100%;
   }
@@ -146,12 +216,16 @@ body {
   .hero_producto {
     width: 50%;
   }
-  .quienesSomos_title{
+
+  .quienesSomos_title {
     font-size: 30px;
-    margin-bottom: 100px;
 
   }
-  .quienesSomos_text{
+
+  .quienesSomos_text {
     font-size: 16px;
+  }
+  .quienesSomos_img{
+    width: 15rem;
   }
 }
