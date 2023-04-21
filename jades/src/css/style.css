@@ -4,6 +4,7 @@ body {
   font-family: var(--font);
   background-color: var(--tono2);
 }
+/* Navbar pasas esto a modo celular en el media query de 768px apartir de ahi aparecere esto */
 
 .logo {
   letter-spacing: 4px;
@@ -62,6 +63,8 @@ body {
   background-color: var(--tono3);
   transition: top .25s, background-color .5s transform .25s;
 }
+
+/* fin del nabvar */
 
 .hero {
   background-color: var(--tono1);
@@ -156,6 +159,7 @@ body {
   .hero_title {
     font-size: 40px;
     width: 100%;
+    letter-spacing: 0.25rem;
   }
 
   .hero_btn {
@@ -210,7 +214,7 @@ body {
   }
 
   .hero_btn {
-    width: 40%;
+    width: 50%;
   }
 
   .hero_producto {
