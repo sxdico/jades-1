@@ -1,4 +1,9 @@
 export function Navbar() {
+  const troll = () => {
+    alert('Troll no jala aun jeje, curioso');
+  }
+
+  
   return(
   <div className="Navbar">
     <div className="container">
@@ -10,7 +15,7 @@ export function Navbar() {
 
         </nav>
       </div>
-      <button className="btn_navbar">
+      <button className="btn_navbar" onClick={troll}>
         <span className="container_btn">
          <span className="top">
          </span>
