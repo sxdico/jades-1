@@ -1,0 +1,18 @@
+:root {
+  --tono1: #F9F9F9;
+  --tono2: #F3F3F3;
+  --tono3: #000000;
+  --h1: 50px;
+  --font: 'Inter', sans-serif;
+}
+
+@font-face {
+  font-family: 'MyFont';
+  src: url('../fonts/static/Inter-Bold.ttf') format('truetype'),
+    url('../fonts/static/Inter-Regular.ttf') format('truetype'),
+    url('../fonts/static/Inter-Thin.ttf') format('truetype'),
+    url('../fonts/static/Inter-Medium.ttf') format('truetype'),
+    url('../fonts/static/Inter-SemiBold.ttf') format('truetype'),
+    url('../fonts/static/Inter-ExtraBold.ttf') format('truetype'),
+    url('../fonts/static/Inter-Black.ttf') format('truetype');
+}
