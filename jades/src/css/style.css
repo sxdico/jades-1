@@ -9,7 +9,15 @@ body {
 .logo {
   letter-spacing: 4px;
   font-size: 20px;
+  padding: 10px;
 }
+.Navbar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
 .container{
   display: flex;
   flex-direction: row;
@@ -33,7 +41,6 @@ body {
   cursor: pointer;
 
 }
-
 .container_btn {
   position: relative;
   width: 20px;
