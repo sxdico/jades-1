@@ -83,6 +83,7 @@ body {
 .quienesSomos_text {
   width:  435px;
   font-size: 20px;
+  color: var(--text);
 }
 .quienesSomos_img {
   width: 20rem;
