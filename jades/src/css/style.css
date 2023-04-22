@@ -4,6 +4,7 @@ body {
   font-family: var(--font);
   background-color: var(--tono2);
 }
+
 /* Navbar pasas esto a modo celular en el media query de 768px apartir de ahi aparecere esto */
 
 .logo {
@@ -11,14 +12,15 @@ body {
   font-size: 20px;
   padding: 10px;
 }
-.Navbar{
+
+.Navbar {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
 }
 
-.container{
+.container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -41,6 +43,7 @@ body {
   cursor: pointer;
 
 }
+
 .container_btn {
   position: relative;
   width: 20px;
@@ -106,6 +109,7 @@ body {
   letter-spacing: 1px;
   color: var(--tono3);
   font-weight: 700;
+  transition: all 0.3s cubic-bezier(0, 0.83, 1, 0.29);
 }
 
 .hero_producto {
@@ -161,6 +165,44 @@ body {
 .quienesSomos_img {
   width: 20rem;
 }
+.ecopads{
+  background-color: var(--tono1);
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.ecopads_title{
+  font-size: 60px;
+  color: var(--tono3);
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+  letter-spacing: 0.60rem;
+  font-weight: bold;
+}
+.ecopadsFlex{
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  
+}
+.ecopads_img{
+  position: relative;
+  left: 10%;
+  width: 20rem;
+}
+.ecopads_text{
+  width: 100%;
+  text-align: left;
+  font-size: 25px;
+  color: var(--text);
+}
 
 @media screen and (max-width: 768px) {
   .hero_title {
@@ -192,6 +234,24 @@ body {
 
   .quienesSomos {
     height: 100vh;
+  }
+  .ecopadsFlex{
+    grid: none;
+    display: flex;
+    flex-direction: column;
+
+
+  }
+  .ecopads_text{
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    color: var(--text);
+  }
+  .ecopads_img{
+    position: relative;
+    left: 0%;
+    width: 15rem;
   }
 }
 
@@ -233,7 +293,8 @@ body {
   .quienesSomos_text {
     font-size: 16px;
   }
-  .quienesSomos_img{
+
+  .quienesSomos_img {
     width: 15rem;
   }
 }

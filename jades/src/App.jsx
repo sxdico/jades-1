@@ -4,6 +4,7 @@ import { QuienesSomos } from './components/QuienesSomos'
 import { Navbar } from './components/Navbar.jsx'
 import { useState, useEffect } from 'react';
 import { Carga } from './components/Carga.jsx';
+//import { Ecopads } from './components/Ecopads.jsx';
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -29,6 +30,7 @@ function App() {
           <section>
             <QuienesSomos></QuienesSomos>
           </section>
+
         </div>
 
       )}
