@@ -4,7 +4,8 @@ import { BrowserRouter,Routes, Route } from 'react-router-dom'
 import { Ecopads } from './components/Ecopads'
 
 function App() {
-  return (<div>
+  return (
+  <>
     <BrowserRouter>
       <Routes>
         <Route index element={<HomePague/>} />
@@ -13,10 +14,8 @@ function App() {
     </BrowserRouter>
 
 
-  </div>
+  </>
   )
-
-
 }
 
 export default App
