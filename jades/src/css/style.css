@@ -11,6 +11,7 @@ body {
   letter-spacing: 4px;
   font-size: 20px;
   padding: 10px;
+  color: var(--tono3);
 }
 
 .Navbar {
@@ -117,8 +118,9 @@ body {
 }
 
 .hero_btn:hover {
-  background-color: var(--tono3);
+  background-color: var(--tono4);
   color: var(--tono1);
+  border: 2px solid var(--tono1);
 }
 
 .quienesSomos {
@@ -143,7 +145,7 @@ body {
 
 .quienesSomos_title {
   font-size: 60px;
-  color: var(--tono3);
+  color: var(--tono4);
   text-align: center;
   letter-spacing: 0.60rem;
   font-weight: bold;
@@ -151,7 +153,7 @@ body {
 
 .quienesSomos_subtitle {
   font-size: 50px;
-  color: var(--tono3);
+  color: var(--tono4);
   text-align: center;
   font-weight: bold;
 }
@@ -159,7 +161,8 @@ body {
 .quienesSomos_text {
   width: 435px;
   font-size: 20px;
-  color: var(--text);
+  font-weight: bold;
+  color: var(--tono3);
 }
 
 .quienesSomos_img {
@@ -180,7 +183,7 @@ body {
 }
 .ecopads_title{
   font-size: 60px;
-  color: var(--tono3);
+  color: var(--tono4);
   text-align: center;
   margin: 0;
   padding: 10px;
@@ -205,7 +208,8 @@ body {
   width: 100%;
   text-align: left;
   font-size: 25px;
-  color: var(--text);
+  color: var(--tono3);
+  font-weight: bold;
 }
 
 @media screen and (max-width: 768px) {
@@ -258,7 +262,7 @@ body {
   }
   .ecopads_title{
     font-size: 40px;
-    color: var(--tono3);
+    color: var(--tono4);
     text-align: center;
     margin: 0;
     padding: 10px;
