@@ -1,4 +1,4 @@
-import toallas from '/src/assets/toallas.png'
+import toallas from '@assets/toallas.png'
 export function QuienesSomos() {
   return (
     <section className="quienesSomos">
