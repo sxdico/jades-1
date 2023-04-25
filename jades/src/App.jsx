@@ -1,8 +1,8 @@
-import '../src/css/style.css'
-import { HomePague } from './components/HomePague.jsx'
+import '@styles/style.css'
+import { HomePague } from '@components/HomePague.jsx'
 import { BrowserRouter,Routes, Route } from 'react-router-dom'
-import { Ecopads } from './components/Ecopads'
-import { Not } from './components/Not'
+import { Ecopads } from '@components/Ecopads'
+import { Not } from '@components/Not'
 
 function App() {
   return (
