@@ -211,6 +211,35 @@ body {
   color: var(--tono3);
   font-weight: bold;
 }
+.container_404{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+}
+.img_404{
+  width: 30%;
+  height: 100%;
+}
+.caja_404{
+  width: 40%;
+  border-radius: 90px 90px 90px 0px;
+  align-items: center;
+  text-align: center;
+  background-color: #1FC45B;
+
+}
+.title_404{
+  font-size: 10rem;
+   color: var(--tono1);
+}
+.text_404{
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--tono4);
+  text-align: center;
+}
 
 @media screen and (max-width: 768px) {
   .hero_title {
@@ -271,6 +300,9 @@ body {
     letter-spacing: 0.60rem;
     font-weight: bold;
   }
+  .title_404{
+    font-size: 5rem;
+  }
 }
 
 @media screen and (max-width: 1286px) {
@@ -314,5 +346,24 @@ body {
 
   .quienesSomos_img {
     width: 15rem;
+  }
+  .container_404{
+    flex-direction: column;
+    justify-content: none;
+  }
+  .img_404{
+    width: 70%;
+    height: 30%;
+  }
+  .caja_404{
+    background-color: transparent;
+    border-radius: none;
+    margin-bottom: 100px;
+    width: 100%;
+  }
+  .title_404{
+    font-size: 5rem;
+    color: var(--tono3);
+    width: 100%;
   }
 }
