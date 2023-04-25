@@ -1,8 +1,8 @@
-import { Hero } from './Hero.jsx'
-import { QuienesSomos } from './QuienesSomos'
-import { Navbar } from './Navbar.jsx'
+import { Hero } from '@components/Hero.jsx'
+import { QuienesSomos } from '@components/QuienesSomos'
+import { Navbar } from '@components/Navbar.jsx'
 import { useState, useEffect } from 'react';
-import { Carga } from './Carga.jsx';
+import { Carga } from '@components/Carga.jsx';
 
 export function HomePague(){
 

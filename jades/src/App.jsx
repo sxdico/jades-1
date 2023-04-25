@@ -1,5 +1,5 @@
-import '../src/css/style.css'
-import { HomePague } from './components/HomePague.jsx'
+import '@styles/style.css'
+import { HomePague } from '@components/HomePague.jsx'
 import { BrowserRouter,Routes, Route } from 'react-router-dom'
 import { Ecopads } from './components/Ecopads'
 import { ComoMantenerlaLimpia } from './pages/ComoMantenerlaLimpia'
@@ -9,7 +9,8 @@ import { Contacto } from './pages/Contacto'
 
 
 function App() {
-  return (<div>
+  return (
+  <>
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<HomePague />} />
@@ -23,10 +24,8 @@ function App() {
     </BrowserRouter>
 
 
-  </div>
+  </>
   )
-
-
 }
 
 export default App
