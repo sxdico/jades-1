@@ -1,4 +1,4 @@
-import hero_img from '/src/assets/header img.png'
+import hero_img from '@assets/header img.png'
 import { Link } from 'react-router-dom';
 
 export function Hero() {

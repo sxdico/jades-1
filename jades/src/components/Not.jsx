@@ -1,4 +1,4 @@
-import mundo from "/src/assets/404 img.svg";
+import mundo from "@assets/404 img.svg";
 export function Not() {
   return (
     <> 

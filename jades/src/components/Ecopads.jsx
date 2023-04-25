@@ -1,4 +1,4 @@
-import hero_img from '/src/assets/header img.png'
+import hero_img from '@assets/header img.png'
 //esto ira cuando le pique a el bnt del ver mas 
 
 export function Ecopads() {
